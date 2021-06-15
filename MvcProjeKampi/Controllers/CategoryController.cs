@@ -50,7 +50,7 @@ namespace MvcProjeKampi.Controllers
                     ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
                 }
             }
-            return View(results);
+            return View();
         }
     }
 }
